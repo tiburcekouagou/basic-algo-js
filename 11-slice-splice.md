@@ -24,6 +24,6 @@ frankenSplice([1, 2, 3], [4, 5, 6], 1);
 
 **frankenSplice(["claw", "tentacle"], ["head", "shoulders", "knees", "toes"], 2)** devrait retourner **["head", "shoulders", "claw", "tentacle", "knees", "toes"]**.
 
-Tous les éléments du 1^er^ tableau devraient être ajoutés au second tableau dans leur ordre originel. **frankenSplice([1, 2, 3, 4], [], 0)** devrait retourner **[1, 2, 3, 4]**
+Tous les éléments du premier tableau devraient être ajoutés au second tableau dans leur ordre originel. **frankenSplice([1, 2, 3, 4], [], 0)** devrait retourner **[1, 2, 3, 4]**
 
-Le 1^er^ tableau devrait rester pareil après exécution de la fonction de même que le second.
+Le premier tableau devrait rester pareil après exécution de la fonction de même que le second.
